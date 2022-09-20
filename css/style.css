@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Consolas';
+  src: url('../src/fonts/Consolas.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  max-height: max-content;
+  flex-grow: 1;
+  background: rgb(252,220,255);
+  background: linear-gradient(315deg, rgba(252,220,255,1) 0%, rgba(255,250,194,1) 100%);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;  
+}
+
+.container {
+  width: max-content;
+  max-width: 80%;
+  align-self: center;
+  background-color: white; 
+  border: 1px solid orange;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0px rgb(255 0 0 / 15%);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cairo', sans-serif;
+  overflow-x: hidden;
+}
+
+.container h1.problem {
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.container h1.problem a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.container h1.problem .pnum{
+  font-weight: bold;
+}
+
+.container .compare{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.container .compare h4.title{
+  font-size: 1.4rem;
+  font-weight: normal;
+  text-align: left;
+}
+
+.container .compare .solution .result,
+.container .compare .target img{
+  border: 5px solid orangered;
+  width: 400px;
+  height: 300px;
+}
+
+.container .compare .solution .result iframe{
+  width: 400px;
+  height: 300px;
+  border: 0px solid transparent;
+  overflow: hidden;
+}
