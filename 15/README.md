@@ -1,5 +1,5 @@
-# CSS Battle Challeng #15
+# CSS Battle Challenge #15
 
 ## Source:
 
-- **Challeng Link:** [cssbattle challeng #15](https://cssbattle.dev/play/15)
+- **Challenge Link:** [cssbattle challenge #15](https://cssbattle.dev/play/15)
